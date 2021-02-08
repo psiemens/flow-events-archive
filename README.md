@@ -2,14 +2,14 @@
 
 The Flow events archive is a simple gRPC proxy service 
 that provides access to historical data from previous 
-Flow network versions (sporks).
+Flow network versions ([sporks](https://docs.onflow.org/node-operation/spork/)).
 
 ## Supported Methods
 
-This proxy service implements a subset of the Flow Access API.
+This proxy service implements a subset of the [Flow Access API](https://docs.onflow.org/access-api).
 As of now, only a single method is supported:
 
-- `GetEventsForHeightRange`
+- [GetEventsForHeightRange](https://docs.onflow.org/access-api#geteventsforheightrange)
 
 ## Available Network Data
 
@@ -23,3 +23,4 @@ As of now, only a single method is supported:
 | Candidate 9 | 6483246 | 7601062 |
 | Mainnet 1   | 7601063 | 8742958 |
 | Mainnet 2   | 8742959 | 9737132 |
+
