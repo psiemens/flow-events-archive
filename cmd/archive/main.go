@@ -1,5 +1,5 @@
 /*
- * Flow Emulator
+ * Flow Events Archive
  *
  * Copyright 2019-2020 Dapper Labs, Inc.
  *
