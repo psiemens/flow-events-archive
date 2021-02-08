@@ -9,7 +9,7 @@ Flow network versions (sporks).
 This proxy service implements a subset of the Flow Access API.
 As of now, only a single method is supported:
 
-- `GetEventsByBlockHeight`
+- `GetEventsForHeightRange`
 
 ## Available Network Data
 
