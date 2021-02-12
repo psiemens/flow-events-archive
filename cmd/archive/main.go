@@ -27,7 +27,7 @@ import (
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 
-	"github.com/onflow/archive/archive"
+	"github.com/psiemens/flow-events-archive/archive"
 )
 
 const envPrefix = "FLOW"
