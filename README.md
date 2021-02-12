@@ -12,6 +12,13 @@ Flow network versions ([sporks](https://docs.onflow.org/node-operation/spork/)).
 This service is not yet deployed. 
 However, you can run the proxy on your local machine and still access the real archive nodes.
 
+```shell
+git clone https://github.com/psiemens/flow-events-archive
+
+cd flow-events-archive
+
+go run cmd/archive/main.go
+```
 ## Supported Methods
 
 This proxy service implements a subset of the [Flow Access API](https://docs.onflow.org/access-api).
