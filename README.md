@@ -1,8 +1,16 @@
 # Flow Events Archive
 
+:warning: _This is an experimental tool.
+The core Flow team is exploring other more robust solutions for archival data._
+
 The Flow events archive is a simple gRPC proxy service 
 that provides access to historical data from previous 
 Flow network versions ([sporks](https://docs.onflow.org/node-operation/spork/)).
+
+## Running Locally
+
+This service is not yet deployed. 
+However, you can run the proxy on your local machine and still access the real archive nodes.
 
 ## Supported Methods
 
