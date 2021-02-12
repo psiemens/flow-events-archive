@@ -18,6 +18,9 @@ git clone https://github.com/psiemens/flow-events-archive
 cd flow-events-archive
 
 go run cmd/archive/main.go
+
+# gRPC (Flow Go SDK): http://localhost:9000
+# HTTP (Flow JS SDK): http://localhost:8080
 ```
 ## Supported Methods
 
