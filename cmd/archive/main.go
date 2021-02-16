@@ -98,11 +98,11 @@ func main() {
 			),
 			archive.NewNode(
 				7601063, 8742958,
-				newClient(" access-001.mainnet1.nodes.onflow.org:9000"),
+				newClient("access-001.mainnet1.nodes.onflow.org:9000"),
 			),
 			archive.NewNode(
 				8742959, 9737132,
-				newClient(" access-001.mainnet2.nodes.onflow.org:9000"),
+				newClient("access-001.mainnet2.nodes.onflow.org:9000"),
 			),
 		},
 	)
