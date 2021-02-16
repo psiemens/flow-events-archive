@@ -41,4 +41,4 @@ As of now, only a single method is supported:
 | Candidate 9 | 6483246 | 7601062 |
 | Mainnet 1   | 7601063 | 8742958 |
 | Mainnet 2   | 8742959 | 9737132 |
-
+| Mainnet 3   | 9737133 | 9992019 |
