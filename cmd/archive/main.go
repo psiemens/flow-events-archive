@@ -108,6 +108,10 @@ func main() {
 				9737133, 9992019,
 				newClient("access-001.mainnet3.nodes.onflow.org:9000"),
 			),
+			archive.NewNode(
+				9992020, 12020336,
+				newClient("access-001.mainnet4.nodes.onflow.org:9000"),
+			),
 		},
 	)
 
