@@ -135,7 +135,7 @@ func main() {
 }
 
 func newClient(host string) archive.AccessClient {
-	c, err := archive.NewClient(host, grpc.WithInsecure())
+	c, err := archive.NewClient(host, grpc.WithInsecure(), grpc.WithDefaultCallOptions(grpc.MaxCallRecvMsgSize(1024 * 1024 * 12))) // default of 4194304 is too small for some dense blocks (e.g. 11172812)
 	if err != nil {
 		panic(err)
 	}
